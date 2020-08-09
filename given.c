@@ -2,7 +2,7 @@
 #include<string.h>
 int main(){
 char st[100];
-printf("write the string that you want to seprate with '_' token=");
+printf("write the string with '_' token\n");
 scanf("%s",st);
 char *a;
 a=strtok(st,"_");
